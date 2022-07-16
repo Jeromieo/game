@@ -13,9 +13,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: animate 10s ease;
     }
     .cont{
         text-align: center;
+    }
+    @keyframes animate{
+        0%{ background: red ;}
+        20%{ background: blue ;}
+        40%{ background: yellow ;}
+        60%{ background: purple ;}
+        80%{ background: green ;}
+        100%{ background: orange ;}
     }
 </style>
 <body>
